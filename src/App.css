@@ -1,0 +1,21 @@
+.tabs {
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: lightgray;
+    border-radius: 5px 5px 0 0;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .tab:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+  .tab:first-child {
+    margin-left: 0;
+  }
